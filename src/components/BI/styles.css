@@ -1,0 +1,72 @@
+.scenes-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.scenes-1 {
+    background-image: url('https://assets.mubicdn.net/images/film/227905/image-w856.jpg?1617292831');
+}
+.scenes-2 {
+    background-image: url('https://th.bing.com/th/id/OIP.YhhYDqimhWDcEhij9VBNOAHaEK?pid=ImgDet&rs=1');
+}
+.scenes-3 {
+    background-image: url('https://images.everyeye.it/img-notizie/bosslogic-immagina-robbie-ammell-panni-batman-matt-reeves-v5-362304.jpg');
+}
+.scenes-4 {
+    background-image: url('https://th.bing.com/th/id/R.61804bb12039cf5cd546335d293a8d27?rik=01KA40uBYdIgIQ&pid=ImgRaw&r=0');
+}
+.makingoff-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.makingoff-1 {
+    background-image: url('https://th.bing.com/th/id/R.1559db42b36ac46abdf011f86597a4f8?rik=LTKbXXw9txCQ%2bw&pid=ImgRaw&r=0');
+}
+.makingoff-2 {
+    background-image: url('https://th.bing.com/th/id/OIP.fFnAFFDI4b-Nr6do36q8UgHaLH?pid=ImgDet&w=794&h=1191&rs=1');
+}
+.makingoff-3 {
+    background-image: url('https://external-preview.redd.it/mpWcWLa3iYECHQufqCFNB9on8x0qBSsRsDSSGrqi0l0.jpg?auto=webp&s=e36daa28d8bed095802534e302e1311d3e140092');
+}
+.makingoff-4 {
+    background-image: url('https://i.pinimg.com/originals/62/d1/2e/62d12ed9cf5e78f8be90ae939926b06a.jpg');
+}
+.makingoff-5 {
+    background-image: url('https://www.mafab.hu/static/thumb/w600/2020t/287/14/279829_1602679793.396.jpg');
+}
+.publi-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.publi-1 {
+    background-image: url('https://kinomagasinet.no/wp-content/uploads/sites/3/2020/08/12109874_1163046853725346_8928107356374752213_o.jpg');
+}
+
+@media(max-width: 850px){
+    .scenes-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .makingoff-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 400px){
+    .scenes-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .makingoff-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

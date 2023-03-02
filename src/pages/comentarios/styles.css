@@ -1,0 +1,12 @@
+#body-comment {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+@media(max-width: 1600px){
+    #body-comment {
+        display: block;
+    }
+}
