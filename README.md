@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Batman - Study Web Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project developed for the purpose of study React, Javascipt, HTML and CSS tecnology. 
+This is a Batman movie webpage with a contact page, photos and comments.
+CSS styling study.
 
 ## Available Scripts
 
