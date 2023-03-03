@@ -7,8 +7,8 @@ function Footer (){
     return (
         <footer>
             <img id='logo' alt='Navegador nao sportado' src={Logo} />
-            <span>Todos os direitos reservados ©</span>
-            <span>Desenvolvido por: Vinicius Woeth</span>
+            <span>All rights reserved ©</span>
+            <span>By: Vinicius Woeth</span>
         </footer>
     ) 
 }
